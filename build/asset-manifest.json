@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fc88dc55.css",
+    "main.js": "/static/js/main.32b8c8f2.js",
+    "static/media/img_offer6.jpg": "/static/media/img_offer6.ad96f8951747f0abfbfd.jpg",
+    "static/media/img_offer12.jpg": "/static/media/img_offer12.1ea0c07c1eb2ab4057fb.jpg",
+    "static/media/img_offer5.jpg": "/static/media/img_offer5.bb85b6233464cc79cc55.jpg",
+    "static/media/img_offer8.jpg": "/static/media/img_offer8.42d5d3e25c2de330abea.jpg",
+    "static/media/baner.png": "/static/media/baner.f1f49f72b9094b0e18aa.png",
+    "static/media/img_offer2.jpg": "/static/media/img_offer2.cf894fd53d09c6ee0aea.jpg",
+    "static/media/img_offer1.jpg": "/static/media/img_offer1.1336a1d39fd03dd7b0c7.jpg",
+    "static/media/img_snorkelA38E.jpg": "/static/media/img_snorkelA38E.d13a03eeeb479519de56.jpg",
+    "static/media/img_offer3.jpg": "/static/media/img_offer3.0cc81f964d1055ceeff5.jpg",
+    "static/media/img_offer7.jpg": "/static/media/img_offer7.fa15bb8b4694611f6e72.jpg",
+    "static/media/img_offer4.jpg": "/static/media/img_offer4.53cf304dcfe61fedad03.jpg",
+    "static/media/img_0807e.jpg": "/static/media/img_0807e.60b56325e9b5c2c84ce9.jpg",
+    "static/media/user.png": "/static/media/user.24fcf64dee63536d3d2d.png",
+    "static/media/money.png": "/static/media/money.da656dca0ea116d5b280.png",
+    "static/media/plus.png": "/static/media/plus.8b3bb68925063f28824e.png",
+    "static/media/weight.png": "/static/media/weight.b97124c0c960c1b7929b.png",
+    "static/media/load.png": "/static/media/load.e4d7f60c27c9e7fbf758.png",
+    "index.html": "/index.html",
+    "main.fc88dc55.css.map": "/static/css/main.fc88dc55.css.map",
+    "main.32b8c8f2.js.map": "/static/js/main.32b8c8f2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fc88dc55.css",
+    "static/js/main.32b8c8f2.js"
+  ]
+}

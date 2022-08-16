@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('http://fonts.cdnfonts.com/css/tw-cen-mt-condensed');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --primary: #1c1c45;
+    --primary-hover: #21216d;
+    --white: #ffffff;
+    --yellow: #fff000;
+    --light-orange: #ffefd6;
+    --orange: #e98900;
+    --orange-hover: #ff9500;
+    --bg-gray: #f3f3f3;
+    --text-darkgray: #464b53;
+    --text-gray: #666666;
+    --text-lightgray: #f3f3f3;
+
+}
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    min-width: 240px;
+}
+
+
+
+ul li {
+    list-style: none;
+}
+
+/* Buttons */
+
+
+.btn__map {
+    color: var(--white);
+    background: var(--primary);
+    text-decoration: none;
+    transition: 0.2s ease-out;
+    margin-bottom: 35px;
+    width: 200px;
+    height: max-content;
+    text-align: center;
+    border: none;
+}
+
+.btn__map:hover {
+    background: var(--primary-hover);
+    transition: 0.2s ease-out;
+}
+
+.btn__more_sorting_filtres {
+    color: var(--primary);
+    background: transparent;
+    border: 1px solid var(--primary);
+    text-decoration: none;
+    margin-left: 10px;
+    transition: 0.2s ease-out;
+    margin-bottom: 5px;
+    width: max-content;
+    height: 30px;
+
+}
+
+.btn__more_sorting_filtres:hover {
+    color: var(--orange);
+    background: var(--light-orange);
+    border: 1px solid var(--primary);
+    text-decoration: none;
+    margin-left: 10px;
+    transition: 0.2s ease-out;
+    margin-bottom: 5px;
+    width: max-content;
+    height: 30px;
+
+}
+
+.btn__filtres {
+    color: var(--text-gray);
+    background: transparent;
+    border: 1px solid var(--text-gray);
+    text-decoration: none;
+    margin-left: 10px;
+    transition: 0.2s ease-out;
+    margin-bottom: 5px;
+    width: 120px;
+    height: 30px;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+
+.btn__filtres:hover {
+    color: var(--orange);
+    background: var(--light-orange);
+    border: 1px solid var(--primary);
+    text-decoration: none;
+    margin-left: 10px;
+    transition: 0.2s ease-out;
+    margin-bottom: 5px;
+    width: 120px;
+    height: 30px;
+}
+
+
+.btn__filtres:active {
+    color: var(--orange);
+    background: var(--light-orange);
+    border: 1px solid var(--primary);
+    text-decoration: none;
+    margin-left: 10px;
+    transition: 0.2s ease-out;
+    margin-bottom: 5px;
+    width: 120px;
+    height: 30px;
+}
+

@@ -1,0 +1,105 @@
+footer {
+    padding-top: 30px;
+}
+
+.footer {
+    padding-top: 30px;
+    background: var(--primary);
+    color: var(--white);
+    padding-bottom: 2px;
+}
+
+.nav-link {
+    color: var(--text-lightgray);
+}
+
+.brand {
+    color: var(--white);
+    text-decoration: none;
+    font-size: 27px;
+}
+
+.brand:hover {
+    color: var(--white);
+    text-decoration: none;
+    font-size: 27px;
+}
+
+.footer_icon {
+    width: 25px;
+    margin-right: 5px;
+}
+
+.buttons_footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-end;
+    align-self: start;
+}
+
+.buttons {
+    display: block;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.btn_login_footer {
+    color: var(--yellow);
+    background: transparent;
+    border: 1px solid var(--yellow);
+    margin-left: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+    transition: 0.2s ease-out;
+    width: 100%;
+    text-align: left;
+    border: 1px solid var(--yellow);
+}
+
+.btn_login_footer:hover {
+    color: var(--yellow);
+    background: transparent;
+    border: 1px solid var(--yellow);
+    margin-left: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+    transition: 0.2s ease-out;
+    border: 1px solid var(--yellow);
+}
+
+
+.footer_download {
+    width: 200px;
+}
+
+
+@media (max-width:992px) {
+    .footer {
+        padding-bottom: 60px;
+    }
+}
+
+
+@media (max-width:600px) {
+    .buttons_footer {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: flex-start;
+        align-self: start;
+    }
+
+    .col-md-2:not(:first-child) {
+        margin-top: 15px;
+    }
+
+    .buttons {
+        margin-bottom: 20px;
+    }
+}

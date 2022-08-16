@@ -1,0 +1,272 @@
+.link_to_product {
+    text-decoration: none;
+    color: #000000;
+}
+
+.link_to_product:hover {
+    text-decoration: none;
+    color: #000000;
+}
+
+.description_product {
+    margin-top: 30px;
+}
+
+.product_navigation {
+    margin-bottom: 70px;
+}
+
+.btn_back {
+    font-weight: bold;
+    border: 1px solid #000000;
+}
+
+.btn_back:hover {
+    font-weight: bold;
+    border: 1px solid #000000;
+    color: #000000;
+}
+
+.icon_back {
+    width: 20px;
+}
+
+.carousel {
+    width: 100%;
+    margin-top: -70px;
+}
+
+.img_product {
+    width: 100%;
+}
+
+.info_product {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.details_product {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.row2 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.productspecification {
+    border-bottom: 1px solid #dddddd;
+    display: flex;
+    padding-top: 10px;
+    justify-content: start;
+    align-content: center;
+}
+
+.contact_user_section {
+    background: var(--bg-gray);
+    margin-top: -65px;
+    padding-bottom: 20px;
+
+}
+
+.user_contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    margin-top: 30px;
+}
+
+.contactform {
+
+    display: flex;
+    flex-direction: column;
+
+    margin: 20px;
+
+}
+
+.contactform input {
+    margin-top: 20px;
+    border: 1px solid #cfcfcf !important;
+    padding: 10px;
+
+}
+
+.contactform textarea {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #cfcfcf !important;
+
+}
+
+.contactform p {
+    margin: 20px;
+
+}
+
+.contactform .checkbox {
+    margin: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+
+.contactform .btn__map {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.btn__login {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--white);
+    background: var(--primary);
+    text-decoration: none;
+    transition: 0.2s ease-out;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+.btn__login:hover {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--white);
+    background: var(--primary-hover);
+    text-decoration: none;
+    transition: 0.2s ease-out;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.icon_product_contact {
+    width: 60px;
+    padding-top: 30px;
+}
+
+.input_linki {
+    display: block;
+    margin-left: 0;
+    margin-right: auto;
+    float: left;
+}
+
+.checkbox label {
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+    float: right;
+    margin-top: 13px;
+}
+
+
+
+@media (max-width:1400px) {
+    .description_product {
+        margin-top: 60px;
+    }
+
+    .product_navigation {
+        margin-top: -30px;
+        margin-bottom: 80px;
+    }
+
+    .carousel {
+        margin-top: -190px;
+    }
+
+    .row2 {
+        margin-top: 100px;
+    }
+}
+
+@media (max-width:1200px) {
+    .description_product {
+        margin-top: 50px;
+    }
+
+    .carousel {
+        margin-top: -280px;
+    }
+}
+
+@media (max-width:992px) {
+    .carousel {
+        margin-top: -120px;
+    }
+
+    .contact_user_section {
+        margin-top: 50px;
+        margin-bottom: 100px;
+
+    }
+
+    .description {
+        margin-bottom: 50px;
+    }
+
+    .contactform form {
+
+        width: 93%;
+
+    }
+
+    h3 {
+        margin-top: 30px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width:500px) {
+
+    .info_product {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+
+    .contactform input {
+        width: 100%;
+
+    }
+
+
+    h3 {
+        margin-top: 30px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h5 {
+        font-size: 17px;
+
+    }
+}

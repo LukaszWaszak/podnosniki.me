@@ -1,0 +1,33 @@
+.latest_offer {
+    background: var(--white);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+.latest_specification {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: start;
+}
+
+.latest_specification li {
+    margin-top: 5px;
+    margin-left: -15px;
+}
+
+.latest_specification li h4 {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+
+
+
+.latest_icon {
+    width: 15px;
+    margin-right: 10px;
+    margin-left: 5px;
+}

@@ -1,0 +1,488 @@
+.offers {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background: var(--text-lightgray);
+    margin-top: 10px;
+    padding-bottom: 100px;
+}
+
+.link_to_product {
+    color: var(--text-gray);
+    text-decoration: none;
+}
+
+.link_to_product:hover {
+    color: var(--text-gray);
+    text-decoration: none;
+}
+
+.offers_menu {
+    display: flex;
+    flex-direction: row;
+}
+
+.buttons_filtres {
+    display: flex;
+    flex-direction: row;
+    margin-top: 7px;
+    margin-bottom: 20px;
+    margin-left: 40%;
+
+}
+
+h6 {
+    margin: 0px;
+    margin-top: 2px;
+    font-size: 18px;
+}
+
+.btn__map {
+    color: var(--white);
+    background: var(--primary);
+    text-decoration: none;
+    transition: 0.2s ease-out;
+    margin-bottom: 35px;
+    width: 200px;
+    height: max-content;
+    text-align: center;
+    border: none;
+}
+
+.btn__map:hover {
+    background: var(--primary-hover);
+    transition: 0.2s ease-out;
+}
+
+.btn__more_sorting_filtres {
+    color: var(--primary);
+    background: transparent;
+    border: 1px solid var(--primary);
+    text-decoration: none;
+    margin-left: 10px;
+    transition: 0.2s ease-out;
+    margin-bottom: 5px;
+    width: max-content;
+    height: 30px;
+
+}
+
+.btn__more_sorting_filtres:hover {
+    color: var(--orange);
+    background: var(--light-orange);
+    border: 1px solid var(--primary);
+    text-decoration: none;
+    margin-left: 10px;
+    transition: 0.2s ease-out;
+    margin-bottom: 5px;
+    width: max-content;
+    height: 30px;
+
+}
+
+.btn__filtres {
+    color: var(--text-gray);
+    background: transparent;
+    border: 1px solid var(--text-gray);
+    text-decoration: none;
+    margin-left: 10px;
+    transition: 0.2s ease-out;
+    margin-bottom: 5px;
+    width: 120px;
+    height: 30px;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+
+.btn__filtres:hover {
+    color: var(--orange);
+    background: var(--light-orange);
+    border: 1px solid var(--primary);
+    text-decoration: none;
+    margin-left: 10px;
+    transition: 0.2s ease-out;
+    margin-bottom: 5px;
+    width: 120px;
+    height: 30px;
+}
+
+
+.btn__filtres:active {
+    color: var(--orange);
+    background: var(--light-orange);
+    border: 1px solid var(--primary);
+    text-decoration: none;
+    margin-left: 10px;
+    transition: 0.2s ease-out;
+    margin-bottom: 5px;
+    width: 120px;
+    height: 30px;
+}
+
+
+.offers h5 {
+    margin-top: 20px;
+}
+
+.promotion {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.promotion_p {
+    display: flex;
+    margin-left: 10px;
+    margin-top: 23px;
+    font-size: 15px;
+    color: var(--orange);
+    text-decoration: none;
+    transition: 0.4s;
+
+}
+
+.promotion_p:hover {
+    display: flex;
+    margin-left: 10px;
+    margin-top: 23px;
+    font-size: 15px;
+    color: var(--black);
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.4s;
+
+}
+
+.offer {
+    width: 100%;
+    height: 260px;
+    display: flex;
+    justify-content: start;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    background: var(--white);
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.offer_img {
+    width: 364px;
+
+}
+
+.specification {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: start;
+}
+
+.offers .specification li {
+    margin-top: 20px;
+}
+
+.offers .specification li h4 {
+    font-size: 17px;
+}
+
+
+.offer_icon {
+    width: 25px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+
+
+@media screen and (max-width:992px) {
+
+    .offers {
+        margin-top: -5px;
+        padding-top: 20px;
+    }
+
+    .offer {
+        width: 100%;
+        overflow: hidden;
+        height: fit-content;
+        display: flex;
+        justify-content: flex-end;
+        align-content: flex-end;
+        align-items: flex-end;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background: var(--white);
+        margin-top: 20px;
+
+    }
+
+    .buttons_filtres {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 20px;
+        margin-left: 0%;
+        font-size: 13px;
+    }
+
+    .specification {
+        width: 100%;
+    }
+
+    .offers .specification li h4 {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    .offers .specification li {
+        font-size: 14px;
+        margin-top: 10px;
+        text-decoration: none;
+
+    }
+
+    .offer_icon {
+        width: 16px;
+        margin-right: 10px;
+        margin-left: 5px;
+    }
+
+    .btn__map {
+        color: var(--white);
+        background: var(--primary);
+        text-decoration: none;
+        transition: 0.2s ease-out;
+        margin-bottom: 5px;
+        width: 100%;
+        height: 40px;
+        text-align: center;
+    }
+
+    .price {
+        position: relative;
+        margin-left: 0%;
+        margin-top: 0px;
+        display: block;
+    }
+
+    .offers .specification li h4 {
+        font-size: 17px;
+        margin-top: 10px;
+    }
+
+    .offer_img {
+        width: 100%;
+        height: max-content;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+
+    .buttons_filtres {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 20px;
+        margin-left: 0%;
+        font-size: 13px;
+    }
+
+    .btn__filtres {
+        width: max-content;
+    }
+
+    .btn__filtres:hover {
+        width: max-content;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+
+    .offers {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        background: var(--text-lightgray);
+        padding-bottom: 10px;
+    }
+
+}
+
+@media screen and (max-width:400px) {
+
+    .buttons_filtres {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+        margin-left: 0%;
+        font-size: 13px;
+    }
+
+    .promotion {
+        flex-wrap: wrap;
+
+    }
+
+    .offers .specification li h4 {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    .offers .specification li {
+        font-size: 14px;
+        margin-top: 10px;
+        margin-left: -10px;
+
+    }
+
+    .offer_icon {
+        width: 16px;
+        margin-right: 10px;
+        margin-left: 5px;
+    }
+}
+
+
+@media (max-width:330px) {
+
+    .promotion_p {
+        margin-top: 0;
+
+    }
+}
+
+.pagination_offers {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.onwebsite {
+    display: flex;
+    justify-content: end;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.onwebsite_numbers {
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+#number {
+    height: 30px;
+    margin-top: -10px;
+}
+
+.page-link {
+    color: #000000;
+    font-size: 15px;
+}
+
+.page-link span {
+    color: #000000;
+}
+
+@media (max-width:678px) {
+
+    .pagination_offers {
+        flex-wrap: wrap;
+    }
+
+    .pagination {
+        flex-wrap: wrap;
+    }
+
+    .onwebsite {
+        display: none;
+
+
+    }
+
+    .page-link {
+        color: #000000;
+        font-size: 12px;
+    }
+}
+
+
+
+/* City Links */
+
+.city_links {
+    margin-top: 20px;
+
+}
+
+.city_ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0;
+}
+
+@media (max-width:600px) {
+    .city_ul {
+        display: none;
+    }
+
+
+}
+
+
+.latest_offer {
+    background: var(--white);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+.latest_specification {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: start;
+}
+
+.latest_specification li {
+    margin-top: 5px;
+    margin-left: -15px;
+}
+
+.latest_specification li h4 {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+
+
+
+.latest_icon {
+    width: 15px;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+
+@media (max-width:600px) {
+
+
+    .latest_specification li h4 {
+        font-size: 14px;
+        margin-top: 15px;
+    }
+
+}

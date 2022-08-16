@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "title": "Wynajem Podnośnika SnorkelA38E",
+        "src": "/static/media/img_snorkelA38E.d13a03eeeb479519de56.jpg",
+        "height": "23m",
+        "weight": "2600kg",
+        "load": "300kg",
+        "price": "300zł",
+        "city": "Płock",
+        "company": "Lifts"
+    },
+    {
+        "id": 2,
+        "title": "Wynajem Podnośników Nożycowych",
+        "src": "/static/media/img_offer6.ad96f8951747f0abfbfd.jpg",
+        "height": "13m",
+        "weight": "1800kg",
+        "load": "240kg",
+        "price": "170zł",
+        "city": "Włocławek",
+        "company": "Lifts"
+    },
+    {
+        "id": 3,
+        "title": "Wynajem Podnośnika Magni ES1612E",
+        "src": "/static/media/img_offer3.0cc81f964d1055ceeff5.jpg",
+        "height": "16m",
+        "weight": "2600kg",
+        "load": "280kg",
+        "price": "300zł",
+        "city": "Gdańsk",
+        "company": "Lifts"
+    }
+]

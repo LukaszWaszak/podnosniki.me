@@ -1,0 +1,90 @@
+[
+    {
+        "id": 1,
+        "title": "Wynajem Podnośnika SnorkelA38E",
+        "src": "/static/media/img_snorkelA38E.d13a03eeeb479519de56.jpg",
+        "height": "23m",
+        "weight": "2600kg",
+        "load": "300kg",
+        "price": "300zł",
+        "city": "Płock",
+        "company": "Lifts"
+    },
+    {
+        "id": 2,
+        "title": "Wynajem Podnośników Nożycowych",
+        "src": "/static/media/img_offer6.ad96f8951747f0abfbfd.jpg",
+        "height": "13m",
+        "weight": "1800kg",
+        "load": "240kg",
+        "price": "170zł",
+        "city": "Włocławek",
+        "company": "Lifts"
+    },
+    {
+        "id": 3,
+        "title": "Wynajem Podnośnika Magni ES1612E",
+        "src": "/static/media/img_offer3.0cc81f964d1055ceeff5.jpg",
+        "height": "16m",
+        "weight": "2600kg",
+        "load": "280kg",
+        "price": "300zł",
+        "city": "Gdańsk",
+        "company": "Lifts"
+    },
+    {
+        "id": 4,
+        "title": "Wynajem Podnośnika Genie GS-2646",
+        "src": "/static/media/img_offer5.bb85b6233464cc79cc55.jpg",
+        "height": "10m",
+        "weight": "1400kg",
+        "load": "160kg",
+        "price": "200zł",
+        "city": "Wrocław",
+        "company": "Lifts"
+    },
+    {
+        "id": 5,
+        "title": "Wynajmę Genie GS-2632",
+        "src": "/static/media/img_offer6.ad96f8951747f0abfbfd.jpg",
+        "height": "15m",
+        "weight": "1500kg",
+        "load": "140kg",
+        "price": "100zł",
+        "city": "Lublin",
+        "company": "Lifts"
+    },
+    {
+        "id": 6,
+        "title": "Wynajem Podnośnika NiftyLift ",
+        "src": "/static/media/img_offer12.1ea0c07c1eb2ab4057fb.jpg",
+        "height": "24m",
+        "weight": "3500kg",
+        "load": "400kg",
+        "price": "350zł",
+        "city": "Poznań",
+        "company": "Lifts"
+    },
+    {
+        "id": 7,
+        "title": "Wynajmę Genie GS-2632",
+        "src": "/static/media/img_offer8.42d5d3e25c2de330abea.jpg",
+        "height": "8m",
+        "weight": "1800kg",
+        "load": "160kg",
+        "price": "150zł",
+        "city": "Warszawa",
+        "company": "WynajemZwyżek.pl"
+    },
+    {
+        "id": 8,
+        "title": "Wynajem podnośnika Magni ES1212E",
+        "src": "/static/media/img_offer1.1336a1d39fd03dd7b0c7.jpg",
+        "height": "15m",
+        "weight": "2100kg",
+        "load": "220kg",
+        "price": "270zł",
+        "city": "Włocławek",
+        "company": "Lifts"
+    }
+]

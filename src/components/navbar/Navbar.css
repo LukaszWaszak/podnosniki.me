@@ -1,0 +1,72 @@
+.header__baner {
+    width: 100%;
+    margin-top: -20px;
+}
+
+.navbar {
+    background: var(--primary);
+
+}
+
+.nav-link {
+    color: var(--white);
+}
+
+.nav-link:hover {
+    color: var(--text-lightgray);
+}
+
+.nav-link:active {
+    color: var(--white);
+}
+
+.brand span {
+    color: #fff000;
+}
+
+.icon_user {
+    width: 25px;
+}
+
+
+.add_advertisement {
+    color: var(--primary);
+    background: var(--yellow);
+    margin-left: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 5px 12px;
+    border-radius: 10px;
+    display: block;
+    margin-top: 4px;
+    transition: 0.2s ease-out;
+
+
+}
+
+.add_advertisement:hover {
+    color: var(--primary);
+    background: #fff23b;
+    margin-left: 5px;
+    transition: 0.4s ease-out;
+
+}
+
+
+
+@media (max-width:992px) {
+    .add_advertisement {
+        color: var(--primary);
+        background: var(--yellow);
+        margin-left: 0px;
+        cursor: pointer;
+        text-decoration: none;
+        padding: 10px;
+        border-radius: 10px;
+        display: block;
+        transition: 0.2s ease-out;
+        width: fit-content;
+        text-align: left;
+
+    }
+}
